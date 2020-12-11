@@ -10,6 +10,8 @@
 ## About it:
 This is a movie recommender system in which it recommends movie on the basis of the content. The link of the datasets which is used in it mentioned below. The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by [TMDB](https://www.themoviedb.org/) and you can get to know more about the API of TMBD over [here](https://www.themoviedb.org/documentation/api). Using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed **sentiment analysis** on those reviews.
 
+- Currently, the databse contains only American Movies.
+
 ## Similarity Score : 
 
 How does it decide which item is most similar to the item user likes? Here we use the similarity scores.
